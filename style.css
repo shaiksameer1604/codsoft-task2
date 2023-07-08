@@ -1,0 +1,147 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body and header styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+#about{
+    background: lightgoldenrodyellow;
+}
+#project{
+    background: burlywood;
+}
+#contact{
+    background: peachpuff;
+}
+#resume{
+    background: navajowhite;
+}
+#contact.container{
+    /* background-color: blanchedalmond; */
+    background-image: url("https://media.istockphoto.com/id/1365543480/video/contact-us-concept.jpg?s=640x640&k=20&c=G16GzQ4uJKlITww2ArmKNB9UKb1-IT2eyJrUxkUmAIY=");
+}
+  header {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  .nav-links li {
+   display: inline;
+    margin-right: 10px;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Section styles */
+  section {
+    padding: 60px 0;
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  section.container{
+    background-color: blanchedalmond;
+    background-image: url("https://media.istockphoto.com/id/1365543480/video/contact-us-concept.jpg?s=640x640&k=20&c=G16GzQ4uJKlITww2ArmKNB9UKb1-IT2eyJrUxkUmAIY=");
+  }
+  
+  /* About section styles */
+  .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .profile-image {
+    width: 200px;
+    border-radius: 50%;
+  }
+  
+  /* Skills section styles */
+  #skills{
+    background-color: blanchedalmond;
+  }
+  .skills-list {
+    padding:5px 5px;
+    background-color: bisque;
+    list-style-type: square;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  .skills-list1 {
+    padding: 5x 5x;
+    background-color:bisque;
+    list-style-type: square;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  /* Project section styles */
+  .project {
+    margin-bottom: 40px;
+    background-color:peachpuff;
+  }
+  .project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .project p {
+    margin-bottom: 20px;
+  }
+  
+  .project-image {
+    width: 100%;
+    max-width: 400px;
+    padding-right: 10px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  .container1{
+    background-color: antiquewhite;
+    text-align: center;
+  }
+  .container2{
+    background-color: antiquewhite;
+    text-align: center;
+  }
+  .color{
+    background-color: burlywood;
+  }
